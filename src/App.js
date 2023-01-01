@@ -1,7 +1,12 @@
-function App() {
+import Container from './components/Container/Container'
+import Timer from './components/Timer/Timer';
+
+const App = () => {
   return (
-    <h1>Timer</h1>
+    <Container>
+      <Timer />
+    </Container>
   );
-}
+};
 
 export default App;
